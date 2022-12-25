@@ -36,6 +36,7 @@ jobs:
       - name: Output information
         run: |
           echo "MONGODB_USERNAME: $MONGODB_USERNAME"
+          
   deploy:
     needs: test
     runs-on: ubuntu-latest
